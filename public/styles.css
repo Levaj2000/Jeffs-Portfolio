@@ -200,3 +200,20 @@
   .platform-head{margin-top:20px}
   .contact-grid.two{grid-template-columns:repeat(2,1fr)}
   @media(max-width:640px){ .contact-grid.two{grid-template-columns:1fr} }
+  .seeking a{white-space:nowrap}
+  .goal{font-family:"IBM Plex Serif",Georgia,serif;font-size:clamp(19px,2.6vw,22px);line-height:1.45;letter-spacing:-.01em;color:var(--ink);margin:14px 0 0;max-width:680px;font-weight:500;text-wrap:pretty}
+  .terms{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:var(--line);border:1px solid var(--line);border-radius:12px;overflow:hidden;margin:24px 0 0}
+  @media(max-width:700px){ .terms{grid-template-columns:1fr 1fr} }
+  .terms div{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:2px;min-width:0}
+  .terms dt{font-family:"IBM Plex Mono",monospace;font-size:11px;letter-spacing:.07em;text-transform:uppercase;color:var(--muted)}
+  .terms dd{margin:0;font-weight:600;font-size:14.5px;line-height:1.4}
+  .role-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+  @media(max-width:600px){ .role-grid{grid-template-columns:1fr} }
+  .role{border:1px solid var(--line);border-radius:12px;padding:18px 20px;background:var(--surface);display:flex;flex-direction:column;gap:6px;min-width:0}
+  .role h4{margin:0;font-size:15.5px;font-weight:600;line-height:1.35;text-wrap:balance}
+  .role p{margin:0;font-size:14px;color:var(--ink-2);line-height:1.55}
+  .role .proof{margin-top:auto;padding-top:6px;font-size:13px;color:var(--muted)}
+  .fit{list-style:none;margin:12px 0 0;padding:0;display:grid;gap:10px;max-width:680px}
+  .fit li{font-size:15px;line-height:1.6;color:var(--ink-2);padding-left:18px;position:relative}
+  .fit li::before{content:"";position:absolute;left:0;top:.7em;width:8px;height:1px;background:var(--accent)}
+  .fit strong{color:var(--ink);font-weight:600}
