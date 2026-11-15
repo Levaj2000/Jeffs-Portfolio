@@ -217,3 +217,4 @@
   .fit li{font-size:15px;line-height:1.6;color:var(--ink-2);padding-left:18px;position:relative}
   .fit li::before{content:"";position:absolute;left:0;top:.7em;width:8px;height:1px;background:var(--accent)}
   .fit strong{color:var(--ink);font-weight:600}
+  @media(min-width:601px){ .role:last-child:nth-child(odd){grid-column:1/-1} }
